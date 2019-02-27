@@ -1,16 +1,13 @@
-import { Component, OnInit } from '@angular/core';
+import { Component } from '@angular/core';
 
 @Component({
   selector: 'app-image-gallery',
   templateUrl: './image-gallery.component.html',
   styleUrls: ['./image-gallery.component.css']
 })
-export class ImageGalleryComponent implements OnInit {
+export class ImageGalleryComponent {
 
   constructor() { }
-
-  ngOnInit() {
-  }
 
   public items: any[] = [
     { title: 'E-Commerce item 1', url: 'https://bit.ly/2VlsHZ8' },
